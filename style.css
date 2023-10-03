@@ -1,0 +1,168 @@
+body {
+  background-color: rgb(50, 50, 85);
+}
+
+#navbar {
+  padding: 8px 180px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+
+  display: block;
+  
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #514884;
+
+  overflow: auto;
+}
+
+#navbar li {
+  list-style-type: none;
+  margin: 50px 0 0 0;
+}
+
+#navbar ul {
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+#navbar a {
+  color: #4fb653;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+.catmenu > img {
+  display: flex;
+
+  object-fit: none;
+  opacity: 50%;
+
+  height: 100%;
+  width: 150px;
+  position: fixed;
+}
+
+.titulo {
+  color: #4fb653;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+
+  font-size: 400%;
+}
+
+.mystory {
+  padding: 80px 200px;
+  font-size: 150%;
+}
+
+#content {
+  display: block;
+  margin-left: 200px;
+}
+
+#content p {
+  color: #4fb653;
+  font-family: 'Courier New', Courier, monospace;
+
+  font-weight: 600;
+  text-align: justify;
+  margin-right: 25px;
+}
+
+.portifolios {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 25px;
+  height: 300px;
+  justify-content: space-around;
+}
+
+.portifolios > div {
+  max-width: 300px;
+  line-height: 75px;
+  margin-right: 150px;  
+
+}
+
+img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.spacecat1:hover {
+ transition: transform 1s;
+ transform: scale(2) translateX(+35%) translateY(25%);
+}
+
+.spacecat2:hover {
+  transition: transform 1s;
+  transform: scale(2) translateX(-50%) translateY(+25%);
+ }
+
+.spacecat3:hover {
+  transition: transform 1s;
+  transform: scale(2) translateX(+35%);
+}
+
+.spacecat4:hover {
+  transition: transform 1s;
+  transform: scale(2) translateX(-50%);
+}
+
+.spacecat5:hover {
+  transition: transform 1s;
+  transform: scale(2) translateX(+40%) translateY(-25%);
+}
+
+.spacecat6:hover {
+  transition: transform 1s;
+  transform: scale(2) translateX(-45%) translateY(-25%);
+}
+
+.container {
+  margin-left: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+  margin-right: 30px;
+  color: #4fb653;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+input[type=text],input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d0d3d0;
+  background-color: #c0bebe;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  border-radius: 4px;
+  height: 30px;
+  width: 100px;
+  background-color: #514884;
+  color: #4fb653;
+  font-family: 'Courier New', Courier, monospace;
+}
